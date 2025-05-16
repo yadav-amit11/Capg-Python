@@ -1,0 +1,155 @@
+### **🔰 Lesson 1: Introduction to Python & Programming Basics**
+
+* What is a programming language
+* Why Python?
+* Program structure
+* Python Shell vs Script Files
+* Python IDEs: VS Code, Jupyter, IDLE
+* Boolean Operators: `and`, `or`, `not`
+* Comparison Operators: `==`, `!=`, `<`, `>`, `<=`, `>=`
+
+---
+
+### **🔁 Lesson 2: Flow Control**
+
+* `if`, `elif`, `else`
+* `while` loop
+* `for` loop
+* `break`, `continue`
+* Python indentation & syntax rules
+
+---
+
+### **📊 Lesson 3: Data Types and Operations**
+
+* Numbers: `int`, `float`
+* Strings: slicing, methods
+* Lists: indexing, slicing, mutation
+* Tuples: immutable lists
+* Dictionaries: key-value pairs
+* Core operations: `+`, `*`, `in`, `not in`
+* List modification, replication, and concatenation
+
+---
+
+### **🔄 Lesson 4: Loops**
+
+* `for` with lists
+* `while` with counters
+* Removing list items using `del`, `.remove()`, `.pop()`
+
+---
+
+### **🧩 Lesson 5: Pattern Matching with Regular Expressions**
+
+* `import re`
+* `re.match()`, `re.search()`, `re.findall()`
+* Patterns: `\d`, `\w`, `.`, `*`, `+`, `?`
+
+---
+
+### **📚 Lesson 6: Advanced Regex Concepts**
+
+* Grouping with `()`
+* Pipe `|` (OR)
+* Repetitions: `{m,n}`, `*`, `+`, `?`
+* Case-insensitive with `re.IGNORECASE`
+
+---
+
+### **📐 Lesson 7: Statements & Syntax**
+
+* Variables, expressions, `print()`
+* Conditionals with `if`, `else`
+* Loops: `for`, `while`
+* `break`, `continue`, `pass`
+
+---
+
+### **🔧 Lesson 8: Functions**
+
+* Inbuilt functions (`len()`, `type()`, `range()`)
+* Defining your own functions: `def`
+* Parameters & return values
+* Global vs local variables
+* Default values
+* Packing/unpacking args: `*args`, `**kwargs`
+* Recursion
+
+---
+
+### **🧠 Lesson 9: Anonymous Functions & Exception Handling**
+
+* `lambda`
+* `map()`, `filter()`
+* `try`, `except`, `finally`
+* Specific, generic, and custom exceptions
+* `raise`, `assert`
+
+---
+
+### **📦 Lesson 10: Modules & Packages**
+
+* Creating and importing modules
+* `import`, `from ... import`
+* Creating and using packages with `__init__.py`
+
+---
+
+### **🧱 Lesson 11: Object-Oriented Programming**
+
+* Class & object
+* Constructor `__init__()`
+* Instance variables (specific states)
+* Class/static methods
+* `self` keyword
+* Method types: instance, class, static
+
+---
+
+### **📁 Lesson 12: File Operations**
+
+* File paths (Windows `\`, Linux `/`)
+* Absolute vs relative paths
+* `open()`, `read()`, `write()`, `append()`
+* Reading line by line
+* Using `with open()`
+* Copying files (with `shutil`)
+
+---
+
+### **🧪 Lesson 13: Unit Testing with PyUnit**
+
+* What is unit testing?
+* `unittest` module
+* Writing test cases
+* Asserts: `assertEqual`, `assertTrue`, etc.
+
+---
+
+### **🧪 Lesson 14: Advanced PyUnit Testing**
+
+* Designing test cases
+* Running test suites
+* Setup and teardown (`setUp`, `tearDown`)
+* Benefits of unit testing
+
+---
+
+### **📏 Lesson 15: Coding Standards (Python + SQL Focus)**
+
+* Importance of standards
+* PEP8 basics
+* Readability & documentation
+* Use of meaningful names
+* Exception handling best practices
+
+---
+
+### **📏 Lesson 16: Coding Standards Continued**
+
+* Avoid multi-use identifiers
+* Write backup & logging logic
+* Add meaningful comments
+* Maintain open standards for team projects
+
