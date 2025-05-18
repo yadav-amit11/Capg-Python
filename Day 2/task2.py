@@ -42,4 +42,5 @@ print(bin(~ -5))  # n-1
 print( 156<< 3) # left shift
 print((156>> 2)) # right shift ( values get decreased, divided by 2)
 print(bin(137))
+print(int((10+"123")))
 
