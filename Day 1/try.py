@@ -1,1 +1,0 @@
-print(["even", "odd"][int(input("enter number: ")) % 2])

@@ -11,3 +11,5 @@ print(a)
 a,a,b=10,20,40
 print(a)
 print(b)
+
+# print(["even", "odd"][int(input("enter number: ")) % 2])
