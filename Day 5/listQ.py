@@ -35,7 +35,7 @@ print(superset2)
 # diff2=s.symmetric_difference(s1)
 # print(diff2)
 
-#take list from user side and give item which has maximumm count, print that value and frequency
+#take list from user side and give item which is maximumm count, print that value and frequency
 # take a set() from user side and print maximum integer  value
 
 nums = int(input("enter no. of items: "))

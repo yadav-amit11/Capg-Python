@@ -4,16 +4,10 @@
 #         print(num,end=" ")
 #     num -= 1
 
-# i=1
-# while i<=10:
-#     if i==5:
-#             continue
-#     print(i)
-#     i+=1
 
 i=1
 while i<=10:
-print(i  )
-    i +=1
-    i f i== 5:
-        break
+    if i==5:
+            continue
+    print(i)
+    i+=1  # when i==5, i remain 5 forever,and loop continues infinetly,

@@ -1,0 +1,148 @@
+
+1. capitalize()
+   "python is fun" → "Python is fun"
+
+2. casefold()
+   "Straße" → "strasse"
+Why use casefold() instead of lower()?
+.lower() handles basic English conversions like "HELLO".lower() → "hello".
+
+But casefold() is more aggressive and designed for internationalization.
+
+3. center(width, fillchar)
+   "OK".center(7, '-') → "--OK---"
+
+4. count(sub)
+   "hippopotamus".count("p") → 3
+
+5. encode()
+   "Data!".encode() → b'Data!' --> b -- bytes 
+
+6. endswith(suffix)
+   "report.pdf".endswith(".pdf") → True
+
+7. expandtabs(tabsize)
+   "ID\tName".expandtabs(6) → "ID    Name"
+
+8. find(sub)
+   "support@company.com".find("@") → 7
+
+9. format()
+   "Welcome, {}!".format("Cr7") → "Welcome, CR7!"
+
+10. format_map(mapping)
+    {"name": "Karan", "score": 95} → "Name: Karan, Score: 95"
+
+11. index(sub)
+    "tick tock".index("t") → 0
+
+12. isalnum()
+    "abc123".isalnum() → True
+
+13. isalpha()
+    "Python".isalpha() → True
+
+14. isascii()
+    "123ABC".isascii() → True
+
+15. isdecimal()
+    "300".isdecimal() → True
+
+16. isdigit()
+    "Ⅻ".isdigit() → True
+
+17. isidentifier()
+    "my_var1".isidentifier() → True
+
+18. islower()
+    "good job".islower() → True
+
+19. isnumeric()
+    "2025".isnumeric() → True
+
+20. isprintable()
+    "Hello\nWorld".isprintable() → False
+
+21. isspace()
+    "   ".isspace() → True
+
+22. istitle()
+    "Game Of Thrones".istitle() → True
+
+23. isupper()
+    "LOUD".isupper() → True
+
+24. join(iterable)
+    "-".join(["join", "with", "dash"]) → "join-with-dash"
+
+25. ljust(width, fillchar)
+    "Ram".ljust(6, '.') → "Ram..."
+
+26. lower()
+    "NIKE".lower() → "nike"
+
+27. lstrip(chars)
+    "###Error".lstrip('#') → "Error"
+
+28. maketrans() + translate()
+	table = str.maketrans("abc", "123")
+	new_str = "cab".translate(table)
+	print(new_str)  # Output: "312"
+
+29. partition(sep) -- it is only three values after sep (sep search from leftside)
+    "key:value".partition(":") → ('key', ':', 'value')
+
+30. replace(old, new)
+    "lorem ipsum lorem".replace("lorem", "LOREM") → "LOREM ipsum LOREM"
+
+31. rfind(sub)
+    "error error warning error".rfind("error") → 21
+
+32. rindex(sub)
+    "admin@domain.com".rindex(".") → 12
+
+33. rjust(width, fillchar)
+    "77".rjust(5, '0') → "00077"
+
+34. rstrip(chars)
+    "Test###".rstrip('#') → "Test"
+
+35. rpartition(sep) it is only three values after sep (sep search from rightside)
+
+    "2024-12-25".rpartition("-") → ('2024-12', '-', '25')
+
+36. rsplit(sep, maxsplit)
+    "one/two/three".rsplit("/", 1) → ['one/two', 'three']
+
+37. split(sep, maxsplit)
+    "a b c".split() → ['a', 'b', 'c']
+
+38. splitlines(keepends)
+    "Line1\nLine2".splitlines() → ['Line1', 'Line2']
+
+39. startswith(prefix)
+    "https://openai.com".startswith("https") → True
+
+40. strip(chars)
+    "@@hello@@".strip('@') → "hello"
+
+41. swapcase()
+    "PyTHon".swapcase() → "pYthON"
+
+42. title()
+    "data science training".title() → "Data Science Training"
+
+43. upper()
+    "fifa".upper() → "FIFA"
+
+44. zfill(width)
+    "45".zfill(5) → "00045"
+
+
+
+| Method          | Accepts                                                    | Example Input | Example Result |
+| --------------- | ---------------------------------------------------------- | ------------- | -------------- |
+| **isdecimal()** | Only decimal digits (0–9)                                  | `"123"`       | ✅ True         |
+| **isdigit()**   | Decimal digits + superscripts, subscripts                  | `"²34"`       | ✅ True         |
+| **isnumeric()** | All numeric chars: digits, fractions, Roman numerals, etc. | `"⅕③١٢٣"`     | ✅ True         |
+
