@@ -69,11 +69,24 @@
 # print(city1.issuperset(city2))
 # print(city2.issubset(city1))
 
-dict={"a":10,"b":20,"c":"amit"}
-print(dict.values())
-for i in dict:
-    print(dict[i])
+# dict={"a":10,"b":20,"c":"amit"}
+# print(dict.values())
+# for i in dict:
+#     print(dict[i])
 
+# inp = input("Enter a string: ").lower()
+# try:
+#     if inp=="quit":
+#         print("ok bye")
+#     else: 
+#         print("continue")
+# except ValueError as e:
+#     print("value not found",e)
+    
 
+a = input("Enter the value butween 5 and 9: ")
 
-
+if (a == "quit"):
+  print("ohk")
+elif (int(a) < 5 or int(a) > 9):
+  raise ValueError("The number should be between 5 and 9")

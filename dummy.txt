@@ -1,0 +1,7 @@
+python -u "c:\Users\KIIT\Desktop\Capg Python\Day 12\filehandling.py"
+s200 stud90 c++ 120s105 stud2 c+ 100abc1 stud78 c++ 20
+s18 stud12 cpp 50
+python -u "c:\Users\KIIT\Desktop\Capg Python\Day 12\filehandling.py"
+
+abc1 std2 cpp 70
+bgf1 srd4 py 40
