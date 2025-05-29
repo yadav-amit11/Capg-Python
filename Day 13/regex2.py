@@ -6,7 +6,7 @@ Times : 9:00 AM,18:45,4:15PM
 919876543210
 9876543210
 abcd9899999
-+1 123 456 7890
++1 1236 456 7890
 +1 123-456-7890
 '''
 import re
@@ -22,5 +22,3 @@ import re
 # date pattern matching
 res= re.findall(r'\d{1,2}[/,-]\d{1,2}[/,-]\d{2,4}',s)
 print(res)
-
-

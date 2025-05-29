@@ -1,6 +1,6 @@
 #abstraction:-
 from abc import ABC,abstractmethod
-class juicemaker(ABC):#hiding the implementation
+class juicemaker(ABC):
     @abstractmethod
     def makejuice(self):
         pass
