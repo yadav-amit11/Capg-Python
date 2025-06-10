@@ -17,8 +17,9 @@ class TestAuthenticate(unittest.TestCase):
     def tearDown(self):
         print("Completed",self._testMethodName)
     def test_username(self):
-        result = authenticate("dhoni","123")
-        self.assertEqual(result,"Invalid")
+        result = authenticate("admieen", "admin123")
+        self.assertEqual(result, "Login success")
+
     @classmethod
     def tearDownClass(cls):
         print("All test completed ")

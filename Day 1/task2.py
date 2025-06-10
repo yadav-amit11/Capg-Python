@@ -8,7 +8,7 @@ print("hello world")
 # comment
 # """
 #print(a)
-b,b=10,40
+b,b=0,1
 print(b)
 print(b)
 

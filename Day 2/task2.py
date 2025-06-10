@@ -19,7 +19,8 @@ print(ord('*')) # ascii value of *
 # print(ord(aa))  # error
 '''
 
-#print["True","False"][str(input("enter str: ")) < 97]
+print(["True", "False"][ord(input("enter str: ")[0]) < 97])
+
 #print('A'<=input()<='Z')
 # s=input("enter str: ")
 # print(s>='A' and s<='Z')
@@ -31,16 +32,16 @@ print(ord('*')) # ascii value of *
 
 #bitwise operators
 # &  |  ^  ~  <<  >>
-print(bin(123))
-print(bin(145))
-print(bin(145 & 123)) # and
-print(bin(145 | 123)) # or
-print(145|75) # or
-print(1525 ^ 2531) # xor
-print(bin(~5)) #bitwise not  -n-1
-print(bin(~ -5))  # n-1
-print( 156<< 3) # left shift
-print((156>> 2)) # right shift ( values get decreased, divided by 2)
-print(bin(137))
-print(int((10+"123")))
+# print(bin(123))
+# print(bin(145))
+# print(bin(145 & 123)) # and
+# print(bin(145 | 123)) # or
+# print(145|75) # or
+# print(1525 ^ 2531) # xor
+# print(bin(~5)) #bitwise not  -n-1
+# print(bin(~ -5))  # n-1
+# print( 156<< 3) # left shift
+# print((156>> 2)) # right shift ( values get decreased, divided by 2)
+# print(bin(137))
+# print(int((10+"123")))
 

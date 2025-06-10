@@ -6,7 +6,6 @@
 #     if n % i == 0:
 #         factors += [i]
 # print("Factors:", factors)
-
 # if len(factors) == 2:
 #     print("Prime Number")
 # else:

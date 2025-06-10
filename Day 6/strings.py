@@ -13,8 +13,8 @@ print(a[13]) #IndexError: string index out of range
 a = "            Hello,      World! "
 print(a)
 '''
-str1="mit"
-res=str1.count("c")
-print(len(str1))
-print(len("smit"))
-print(res)
+# str1="mit"
+# res=str1.count("c")
+# print(len(str1))
+# print(len("smit"))
+# print(res)
